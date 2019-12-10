@@ -17,7 +17,7 @@ npm run dev
 
 Development server now lives at [http://localhost:3000](http://localhost:3000).
 
-## Deployement
+### Deployement
 
 Deploy with ▲Now:
 

@@ -9,7 +9,7 @@
     "aframe-particle-system-component": "^1.0.8",
     "aframe-react": "4.3.0",
     "lodash": "^4.17.11",
-    "next": "^8.0.3",
+    "next": "^9.3.2",
     "prop-types": "^15.6.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"

@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import HomeScene from './HomeScene';
-import Cursor from './Cursor';
+import HomeScene from './scenes/HomeScene';
+import Cursor from './components/Cursor';
+import NavLink from './components/NavLink';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(

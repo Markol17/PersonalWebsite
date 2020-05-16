@@ -14,13 +14,68 @@ code {
 }
 
 .cursor {
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   background-color: white;
-  border: 2px solid white;
   border-radius: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
   pointer-events: none;
   transition: all 0.3s;
+  transform-origin: 80% 80%;
+}
+
+.cursor-grow {
+  transform: scale(2.5);
+  /* transform-origin: -5% -5%; */
+}
+
+.link {
+  cursor: none;
+  z-index: 1;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  transition: all 0.6s;
+  font-family: 'Raleway', sans-serif;
+  padding: 20px;
+  letter-spacing: 5px;
+}
+
+.top {
+  top: 5%;
+  left: 50%;
+}
+.right {
+  top: calc(50% - 106px);
+  left: calc(93.5% - 20px);
+  transform: rotate(90deg);
+}
+.bottom {
+  top: calc(91% - 20px);
+  left: calc(50% - 128px);
+}
+.left {
+  top: calc(50% - 120px);
+  left: calc(-3.5% - 20px);
+  transform: rotate(-90deg);
+}
+
+.link:hover {
+  color: black;
+}
+
+.right:hover {
+  transform: translate(-100px) rotate(0deg);
+}
+
+.left:hover {
+  transform: translate(100px) rotate(0deg);
+}
+
+.bottom:hover {
+  transform: translateY(-10px);
 }

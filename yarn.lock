@@ -1821,6 +1821,11 @@ adjust-sourcemap-loader@2.0.0:
     object-path "0.11.4"
     regex-parser "2.2.10"
 
+aframe-animation-timeline-component@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/aframe-animation-timeline-component/-/aframe-animation-timeline-component-2.0.0.tgz#1a4afd092c4846e2a2ce97be3f86fd8bfe2b5765"
+  integrity sha512-EbAzphGirIXVO0laUEhQiDl1LVKz8v59xyb/mwc+k983JldmtghwejaFrhOidFpJhl4s8lzz80CFHShQEkglSA==
+
 aframe@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/aframe/-/aframe-1.0.4.tgz#1b659533db0f5cf9b002c22804278da8349a32d2"
